@@ -42,6 +42,7 @@ mydata<-read.csv(file="GSScsv.csv")
 boxplot(WORDSUM~DEGREE,data=mydata)
 ```
 
+When looking at the boxplot, we can see that the middle box can go completely under the box labeled "Graduate" and "Junior College." This means that there is no interaction between the boxes and the means of the sets are completely different. Therefore,if you run any test with the boxes, you can suspect middle box's mean value for WORDSUM is lower than any of the other boxes labeled "Bachelor," Graduate," and "Junior College."
 
 ### Numerical Descriptive Results
 
