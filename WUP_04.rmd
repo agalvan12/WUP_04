@@ -47,6 +47,11 @@ When looking at the boxplot, we can see that the middle box can go completely un
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+favstats(WORDSUM~DEGREE,data=mydata)
+```
+
+The individuals with Junior College degrees, Bachelor’s degrees, and Graduate degrees have a higher mean than those in high school and junior high school category. People with higher degrees have a mean of 9 or higher and those in the high school and junior high school category have a mean of 8 or less. 
 
 ## Inferential Results
 
