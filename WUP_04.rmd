@@ -51,7 +51,7 @@ When looking at the boxplot, we can see that the middle box can go completely un
 favstats(WORDSUM~DEGREE,data=mydata)
 ```
 
-The individuals with Junior College degrees, Bachelor’s degrees, and Graduate degrees have a higher mean than those in high school and junior high school category. People with higher degrees have a mean of 9 or higher and those in the high school and junior high school category have a mean of 8 or less. 
+The individuals with Junior College degrees, Bachelor’s degrees, and Graduate degrees have a higher mean than those in high school and junior high school category. People with higher degrees have a mean of 9 or higher and those in the high school and junior high school category have a mean of 8 or lower. 
 
 ## Inferential Results
 
@@ -74,3 +74,5 @@ From what we can see, high school-graduate are different from each other. Also, 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+In this boxplot, we can see that individuals with Bachelor's, Graduate or Junior college degrees score better than individuals in the high school or LT high school category. We also saw that people with higher degrees had a mean value of 9 or higher, while high school and LT high school had a mean value of 8 or lower. The P value turned out to be very small, at a value of 0.000236, therefore we rejected the null hypothesis. Lastly, we used the TukeyHSD model to further elaborate that the 95% confidence level between Graduate degree and high school or LT high school were different.
